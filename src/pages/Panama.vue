@@ -1,11 +1,11 @@
 <template>
     <div>
-        <h2>Brazil</h2>
+        <h2>Panama</h2>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'Brazil'
+        name: 'Panama'
     }
 </script>

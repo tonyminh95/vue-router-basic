@@ -1,15 +1,39 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Brazil from './pages/Brazil'
+import Hawaii from './pages/Hawaii'
+import Home from './pages/Home'
+import Jamaica from './pages/Jamaica'
+import Panama from './pages/Panama'
 
 Vue.use(Router)
 
 export default new Router({
     routes: [
         {
+            path: '/',
+            name: 'home',
+            component: Home
+        },
+        {
             path: '/brazil',
             name: 'brazil',
             component: Brazil
+        },
+        {
+            path: '/hawaii',
+            name: 'hawaii',
+            component: Hawaii
+        },
+        {
+            path: '/jamaica',
+            name: 'jamaica',
+            component: Jamaica
+        },
+        {
+            path: '/panama',
+            name: 'panama',
+            component: Panama
         }
     ]
 })

@@ -1,7 +1,11 @@
 <template>
     <div id="app">
         <div id="nav">
+            <router-link to="/home">Home</router-link>
             <router-link to="/brazil">Brazil</router-link>
+            <router-link to="/jamaica">Jamaica</router-link>
+            <router-link to="/hawaii">Hawaii</router-link>
+            <router-link to="/panama">Panama</router-link>
         </div>
         <router-view/>
     </div>
@@ -21,5 +25,9 @@
         text-align: center;
         color: #2c3e50;
         margin-top: 60px;
+    }
+
+    #nav a:not(:last-child) {
+        margin-right: 10px;
     }
 </style>
